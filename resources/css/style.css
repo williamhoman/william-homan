@@ -1,0 +1,318 @@
+/*/---------------------------------------------------------
+----------------BASIC SETUP
+----------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body {
+  background-color: #fff;
+  color: #555;
+  font-family: 'Prompt', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/*/---------------------------------------------------------
+----------------REUSABLE COMPONENTS
+----------------------------------------------------------*/
+.row {
+  max-width: 1148px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 40px 0;
+}
+
+.section-heading {
+  color:#555;
+}
+/*/---------------------------------------------------------
+----------------HEADINGS
+----------------------------------------------------------*/
+
+h1,h2,h3,h4,h5 {
+
+  color: #fff;
+
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 300%;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size:160%;
+  font-weight:300;
+  line-height: 80%;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 300%;
+  margin: 60px 0;
+  text-align: center;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 140%;
+  margin-bottom: 40px;
+  font-weight: 300;
+
+}
+
+h5 {
+  font-size: 225%;
+  margin: 40px 0;
+  text-align: center;
+  font-weight: 300;
+}
+/*/---------------------------------------------------------
+----------------BUTTONS
+----------------------------------------------------------*/
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  font-size: 130%;
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.btn-ghost-a:link,
+.btn-ghost-a:visited {
+  border: 3px solid #a8150a;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.btn-ghost-b:link,
+.btn-ghost-b:visited {
+  border: 3px solid #017080;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.btn-ghost-a:hover,
+.btn-ghost-a:active {
+  background-color: #a8150a;
+}
+
+.btn-ghost-b:hover,
+.btn-ghost-b:active {
+  background-color: #017080;
+}
+/*/---------------------------------------------------------
+----------------HEADER
+----------------------------------------------------------*/
+
+header {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/building-high-rise.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/building-high-rise.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 110vh;
+  background-attachment: fixed;
+}
+
+.hero-text-box {
+  position: absolute;
+  width:1140px;
+  top:50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+
+}
+
+/*/---------------------------------------------------------
+-----------MAIN NAV
+----------------------------------------------------------*/
+
+.main-nav {
+  float: right;
+  list-style: none;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 60px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 3px 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 3px solid #a8150a transparent;
+  border-top: 3px solid #a8150a transparent;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+
+  border-bottom: 3px solid #a8150a;
+  border-top: 3px solid #a8150a;
+  -webkit-transition: border-top 0.4s, border-bottom 0.4s, color 0.4s;
+  transition: border-top 0.4s, border-bottom 0.4s, color 0.4s
+
+}
+/*/---------------------------------------------------------
+----------STICKY NAV
+----------------------------------------------------------*/
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(1, 112, 128, 1);
+  box-shadow: 0 2px 2px #000;
+
+}
+
+.sticky li a:link,
+.sticky li a:visited {
+  padding: 3px 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 3px solid #a8150a transparent;
+  border-top: 3px solid #a8150a transparent;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+/*/---------------------------------------------------------
+----------------ABOUT-ME
+----------------------------------------------------------*/
+
+.section-about-me {
+
+background-image: url(img/fabric-plain.jpg);
+background-size: cover;
+background-position: center;
+height: 100vh;
+
+}
+
+
+/*/---------------------------------------------------------
+----------------EXPERIENCE
+----------------------------------------------------------*/
+.section-experience {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/chalkboard.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/chalkboard.jpg);
+    background-size: cover;
+    background-position: center;
+    /*height: 160vh;*/
+  }
+
+.experience-employer h1 {
+  font-size:250%;
+}
+
+.experience-list {
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.experience-list ul {
+  list-style: none;
+}
+
+
+/*/---------------------------------------------------------
+----------------EDUCATION
+----------------------------------------------------------*/
+.section-education {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(img/PaperPage0018.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(img/PaperPage0018.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+  /*background-attachment: fixed;*/
+
+}
+
+
+.education-school h1{
+  /*color: #017080;*/
+
+}
+
+.education-school h4{
+  /*color: #017080;*/
+}
+
+.education-school:last-of-type {
+  margin-bottom: 100px;
+}
+
+/*/---------------------------------------------------------
+----------------PORTFOLIO
+----------------------------------------------------------*/
+
+.section-portfolio {
+  background-color: #017080;
+}
+
+.button-row-one,
+.button-row-two,
+.button-row-three,
+.button-row-four {
+text-align: center;
+}
+
+
+
+.btn-port {
+  margin-bottom: 30px;
+}
+
+/*/---------------------------------------------------------
+----------------CONTACT
+----------------------------------------------------------*/
+
+.section-contact {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(img/mailbox.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(img/mailbox.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+
+}
+
+
+.contact-row{
+  width: 800px;
+}

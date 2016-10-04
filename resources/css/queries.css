@@ -1,0 +1,125 @@
+
+/*big tablet to 1200. (widths smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px) {
+  header {
+    height: 100vh;
+
+  }
+
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row { padding: 0 2%; }
+
+  .section-about-me {
+    height:110vh;
+  }
+}
+
+
+
+/*small tablet to big tablet. 768px to 1023px*/
+@media only screen and (max-width: 1023px) {
+  .hero-text-box {
+    position: absolute;
+    font-size: 80%;
+  }
+  .section-about-me {
+  background-position: center;
+  height: 80vh;
+  }
+  .section-about-me h4{
+  font-size: 120%;
+  }
+h3 {
+  margin: 30px 0;
+  font-size: 250%;
+}
+
+h4 {
+  margin-bottom: 20px;
+  font-size:120%;
+}
+
+.main-nav {
+  font-size: 80%;
+}
+
+.about-me-col {
+
+  margin-bottom: 30px;
+
+}
+.section-experience h1{
+  font-size: 200%;
+}
+.section-experience h4{
+  font-size: 110%;
+}
+
+.education-school h1 {
+font-size: 200%;
+}
+
+.education-school h4 {
+font-size: 100%;
+}
+.education-school:last-of-type {
+margin-bottom: 50px;
+}
+
+.button-row-three,
+.button-row-four {
+margin: 0px;
+}
+}
+
+
+        /*small phones to small tablets. 481px to 767px*/
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 16px;
+  }
+
+
+.col { width: 100%;
+  margin-left: 0%;
+  text-align: center;
+}
+.hero-text-box {
+  font-size: 90%;
+}
+.section-about-me {
+background-position: center;
+background-size: cover;
+height: 170vh;
+}
+
+.section-about-me h4 {
+  font-size:140%;
+}
+.section-experience h1{
+  font-size: 160%;
+}
+.section-experience h4{
+  font-size: 100%;
+}
+.section-experience li{
+  font-size: 90%;
+}
+.education-school:last-of-type {
+  margin-bottom: 15px;
+}
+.contact-row {
+  font-size: 80%;
+}
+.main-nav { display: none; }
+}
+}
+
+
+     /*small phones:0 to 480px*/
+@media only screen and (max-width: 480px) {
+
+}
