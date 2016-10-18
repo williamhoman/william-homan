@@ -103,14 +103,14 @@ h5 {
 
 .btn-ghost-a:link,
 .btn-ghost-a:visited {
-  border: 3px solid #a8150a;
+  border: 7px solid #a8150a;
   color: #fff;
   margin-right: 20px;
 }
 
 .btn-ghost-b:link,
 .btn-ghost-b:visited {
-  border: 3px solid #017080;
+  border: 7px solid #017080;
   color: #fff;
   margin-right: 20px;
 }
@@ -129,8 +129,8 @@ h5 {
 ----------------------------------------------------------*/
 
 header {
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/building-high-rise.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/building-high-rise.jpg);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(img/building-high-rise.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(img/building-high-rise.jpg);
   background-size: cover;
   background-position: center;
   height: 110vh;
@@ -182,6 +182,20 @@ header {
   transition: border-top 0.4s, border-bottom 0.4s, color 0.4s
 
 }
+
+/*/---------------------------------------------------------
+----------MOBILE NAV
+----------------------------------------------------------*/
+
+.mobile-nav-icon img{
+  float: right;
+  margin-top: 30px;
+  width: 50px;
+  cursor: pointer;
+  display: none;
+}
+
+
 /*/---------------------------------------------------------
 ----------STICKY NAV
 ----------------------------------------------------------*/
@@ -221,7 +235,8 @@ header {
 background-image: url(img/fabric-plain.jpg);
 background-size: cover;
 background-position: center;
-height: 100vh;
+height: 90vh;
+
 
 }
 
@@ -259,7 +274,7 @@ height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(img/PaperPage0018.jpg);
   background-size: cover;
   background-position: center;
-  height: 120vh;
+  height: 100vh;
   /*background-attachment: fixed;*/
 
 }
@@ -308,7 +323,7 @@ text-align: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(img/mailbox.jpg);
   background-size: cover;
   background-position: center;
-  height: 120vh;
+  height: 100vh;
 
 }
 
