@@ -236,11 +236,11 @@ background-color: #a8150a;
 /*background-image: url(img/fabric-plain.jpg);
 background-size: cover;
 background-position: center;*/
-height: auto;
+
 }
 
 .about-me-col {
-  float: left;
+  display: inline;
 }
 
 /*/---------------------------------------------------------
