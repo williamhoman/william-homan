@@ -232,10 +232,11 @@ header {
 
 .section-about-me {
 
-background-image: url(img/fabric-plain.jpg);
+background-color: #a8150a;
+/*background-image: url(img/fabric-plain.jpg);
 background-size: cover;
 background-position: center;
-height: auto;
+height: auto;*/
 
 
 }
@@ -274,7 +275,7 @@ height: auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(img/PaperPage0018.jpg);
   background-size: cover;
   background-position: center;
-  height: 110vh;
+  height: auto;
   /*background-attachment: fixed;*/
 
 }
